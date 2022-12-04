@@ -6,7 +6,17 @@
         <priority>1</priority>
     </url>
     <url>
+        <loc>http://www.burgeonbook.org/about/</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
         <loc>http://www.burgeonbook.org/writeups/</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>http://www.burgeonbook.org/promo/</loc>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>

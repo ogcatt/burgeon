@@ -100,7 +100,7 @@
 		{
 			name: "Neurology",
 			title: "Neurology",
-			subtitle: "How Our Brains Work",
+			subtitle: "Interaction With Thoughts...",
 			md: C6_EN
 		},
 		{
@@ -730,10 +730,10 @@
 	</Route>
 
 	<Route path="about">
-		about
+		About
 	</Route>
 
-	<Route path="about">
+	<Route path="promo">
 		Promo
 	</Route>
 

@@ -21,8 +21,8 @@
 	<a on:click={() => send_to_mix("Writeups")} href="writeups">Writeups</a>
 	<br>
 	<div style="margin-top:3px;">
-	✧ <a>About</a> ✧ 
-	<a>Promo</a>
+	✧ <a href="/about">About</a> ✧ 
+	<a href="/promo">Promo</a>
 	</div>
 	
 </main>
