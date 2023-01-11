@@ -479,9 +479,9 @@
 			ru: "Подходящая музыка. От Lil Darkie - Dreaming."
 		},
 		"audio2-info": {
-			en: "What I thought would be a nice outro. Song is by Quadeca - Tell Me A Joke.",
-			fr: "What I thought would be a nice outro. Song is by Quadeca - Tell Me A Joke.",
-			ru: "What I thought would be a nice outro. Song is by Quadeca - Tell Me A Joke."
+			en: "What I thought would be a nice outro. Song is by VilloVilduVeta - Längtan Får Vingar.",
+			fr: "What I thought would be a nice outro. Song is by VilloVilduVeta - Längtan Får Vingar.",
+			ru: "What I thought would be a nice outro. Song is by VilloVilduVeta - Längtan Får Vingar."
 		},
 		"mark-done": {
 			en: "Mark Done",
@@ -519,7 +519,7 @@
 			ru: "Меню"
 		},
 		"choose-your-language": {
-			en: "Choose your language.",
+			en: "Translations are currently very limited.",
 			fr: "Choississez votre langue.",
 			ru: "Выберете язык."
 		},

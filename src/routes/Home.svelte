@@ -8,21 +8,27 @@
 		{ti["description-p2"][lshort]}<br>
 		We are part of the <a href="">neuroregen collective</a>.
 	</p>
-	{#each ["us", "fr", "ru"] as lang}
-	<img class="mini-flag" src="images/flags/{lang}.svg" alt="{lang}" title="{ti["lang-disclaim"][lshort]}">
-	{/each}<br>
+	<span>
+	<span>Languages:</span>
+	<img class="mini-flag" src="images/flags/us.svg" alt="us" title="{ti["lang-disclaim"][lshort]}">
+	<!--{#each ["fr", "ru"] as lang}
+	<img class="mini-flag" src="images/flags/{lang}.svg" alt="{lang}" style="filter: grayscale(1);" title="{ti["lang-disclaim"][lshort]}">
+	{/each}-->
+	</span>
+	<br>
 	<!--<p><b>New <u><a href="/writeups">Writeups</a></u> section!</b></p>--><br>
 	
 	
-	<a href="/chapter/1"><button class="button">{ti["read-the-book"][lshort]}</button></a><br><br>
-	<a on:click={() => send_to_mix("Physical Book")} href="" target="_blank" rel="noreferrer" title="{ti["physical-info"][lshort]}">{ti["physical-copy"][lshort]}</a> ✧
+	<a on:click={() => send_to_mix("Physical Book")} href="" target="_blank" rel="noreferrer" title="{ti["physical-info"][lshort]}"><button class="button">Physical Copy</button></a><br>
+	<div style="padding-top:5px;font-size: 18px;"><a href="/chapter/1">Online version</a></div>
+	<br>
 	<!-- <a on:click={() => send_to_mix("Audiobook")} href="https://odysee.com/ppmo_audiobook_v3:e" rel="noreferrer" title="{ti["audiobook-info"][lshort]}">{ti["audiobook"][lshort]}</a> ✧ -->
 	<!-- <a on:click={() => send_to_mix("Donate")} href="https://opencollective.com/ppmo-collective-fund" target="_blank" rel="noreferrer" title="{ti["donate-info"][lshort]}">{ti["donate"][lshort]}</a> ✧ --> 
-	<a on:click={() => send_to_mix("Writeups")} href="writeups">Writeups</a>
-	<br>
+	<hr style="width: 230px;">
 	<div style="margin-top:3px;">
-	✧ <a href="/about">About</a> ✧ 
-	<a href="/promo">Promo</a>
+		<a on:click={() => send_to_mix("Writeups")} href="writeups">Writeups</a>
+		✧ <a href="/about">About</a> ✧ 
+		<a href="/promo">Memes</a>
 	</div>
 	
 </main>
