@@ -1,6 +1,7 @@
 <script>
 	import { Router, Route } from "svelte-navigator";
 	import Home from "./Home.svelte";
+	import PhysicalCopies from "./PhysicalCopies.svelte";
 	import x from  "../components/trash/x.svelte";
 	import Chapter from "../components/Chapter.svelte";
 	import Writeup from "../components/Writeup.svelte";
@@ -22,7 +23,6 @@
 	import Stress_EN from "../writeups/Stress.md";
 	import Perfectionism_EN from "../writeups/Perfectionism.md";
 	import Sleep_EN from "../writeups/Sleep.md";
-	import Mentors_EN from "../writeups/Mentors.md";
 
     import Markdown from "../components/Markdown.svelte";
 
@@ -143,7 +143,7 @@
 		{
 			name: "Effects",
 			title: "Effects",
-			subtitle: "Benefits or removal of negatives?",
+			subtitle: "Benefits Or Removal Of Negatives?",
 			md: C3_EN
 		},
 		{
@@ -154,13 +154,13 @@
 		{
 			name: "Love",
 			title: "Love",
-			subtitle: "On views of sex & relationships.",
+			subtitle: "Unhealthy Views On Sex & Love",
 			md: C5_EN
 		},
 		{
 			name: "Neurology",
 			title: "Neurology",
-			subtitle: "How the our brains work.",
+			subtitle: "Interaction With Thoughts...",
 			md: C6_EN
 		},
 		{
@@ -169,20 +169,21 @@
 			md: C7_EN
 		},
 		{
-			name: "tbf",
-			title: "tbf",
+			name: "Transmutation",
+			title: "Transmutation",
+			subtitle: "The Essence Of Energy",
 			md: C8_EN
 		},
 		{
-			name: "Neuroplasticity",
-			title: "Neuroplasticity",
-			subtitle: "Processes and reactions.",
+			name: "Understandings",
+			title: "Understandings",
+			subtitle: "The Little Things",
 			md: C9_EN
 		},
 		{
-			name: "Transmutation",
-			title: "Transmutation",
-			subtitle: "Going over important topics.",
+			name: "Movement",
+			title: "Movement",
+			subtitle: "What Is Next",
 			md: C10_EN
 		},
 	]
@@ -202,7 +203,7 @@
 		{
 			name: "Effects",
 			title: "Effects",
-			subtitle: "Benefits or removal of negatives?",
+			subtitle: "Benefits Or Removal Of Negatives?",
 			md: C3_EN
 		},
 		{
@@ -213,13 +214,13 @@
 		{
 			name: "Love",
 			title: "Love",
-			subtitle: "On views of sex & relationships.",
+			subtitle: "Unhealthy Views On Sex & Love",
 			md: C5_EN
 		},
 		{
 			name: "Neurology",
 			title: "Neurology",
-			subtitle: "How the our brains work.",
+			subtitle: "Interaction With Thoughts...",
 			md: C6_EN
 		},
 		{
@@ -228,20 +229,21 @@
 			md: C7_EN
 		},
 		{
-			name: "tbf",
-			title: "tbf",
+			name: "Transmutation",
+			title: "Transmutation",
+			subtitle: "The Essence Of Energy",
 			md: C8_EN
 		},
 		{
-			name: "Neuroplasticity",
-			title: "Neuroplasticity",
-			subtitle: "Processes and reactions.",
+			name: "Understandings",
+			title: "Understandings",
+			subtitle: "The Little Things",
 			md: C9_EN
 		},
 		{
-			name: "Transmutation",
-			title: "Transmutation",
-			subtitle: "Going over important topics.",
+			name: "Movement",
+			title: "Movement",
+			subtitle: "What Is Next",
 			md: C10_EN
 		},
 	]
@@ -429,9 +431,9 @@
 			ru: "Скачать"
 		},
 		"doc-info": {
-			en: "PDF is better for physical copies. EPUB is best for mobile devices, and ZIP/MD is best for copying text from the book.",
-			fr: "Le format PDF est préférable pour les copies physiques. EPUB est le meilleur pour les appareils mobiles, et ZIP/MD est le meilleur pour copier le texte du livre.",
-			ru: "PDF лучше для физических копий. EPUB лучше для мобильных устройств, а ZIP/MD лучше что бы копировать текст из книги."
+			en: "PDF is available only through the printed copy (for now). EPUB is best for mobile devices, and ZIP/MD is best for copying text from the book.",
+			fr: "PDF is available only through the printed copy (for now). EPUB est le meilleur pour les appareils mobiles, et ZIP/MD est le meilleur pour copier le texte du livre.",
+			ru: "PDF is available only through the printed copy (for now). EPUB лучше для мобильных устройств, а ZIP/MD лучше что бы копировать текст из книги."
 		},
 		"description-p1": {
 			en: "Freedom comes from understanding.",
@@ -657,14 +659,6 @@
 			md: Stress_EN,
 			notitles: true
 		},
-		{
-			title: "MENTORS [NEW]",
-			link: "mentors",
-			subtitle: "Am I your mentor?",
-			image: "stress.png",
-			md: Mentors_EN,
-			notitles: true
-		},
 	]
 	
 	function make_noice_link(title) {
@@ -744,7 +738,9 @@
 		/>
 	</Route>
 
-	
+	<Route path="physical_copy">
+		<PhysicalCopies />
+	</Route>
 
 
 	<Route path="hs_6d61796265003733203639203664203666">

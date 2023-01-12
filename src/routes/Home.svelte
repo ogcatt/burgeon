@@ -19,12 +19,12 @@
 	<!--<p><b>New <u><a href="/writeups">Writeups</a></u> section!</b></p>--><br>
 	
 	
-	<a on:click={() => send_to_mix("Physical Book")} href="" target="_blank" rel="noreferrer" title="{ti["physical-info"][lshort]}"><button class="button">Physical Copy</button></a><br>
+	<a on:click={() => send_to_mix("Physical Book")} href="physical_copy" rel="noreferrer"><button class="button">Physical Copy</button></a><br>
 	<div style="padding-top:5px;font-size: 18px;"><a href="/chapter/1">Online version</a></div>
 	<br>
 	<!-- <a on:click={() => send_to_mix("Audiobook")} href="https://odysee.com/ppmo_audiobook_v3:e" rel="noreferrer" title="{ti["audiobook-info"][lshort]}">{ti["audiobook"][lshort]}</a> ✧ -->
 	<!-- <a on:click={() => send_to_mix("Donate")} href="https://opencollective.com/ppmo-collective-fund" target="_blank" rel="noreferrer" title="{ti["donate-info"][lshort]}">{ti["donate"][lshort]}</a> ✧ --> 
-	<hr style="width: 230px;">
+	<hr style="width: 200px;">
 	<div style="margin-top:3px;">
 		<a on:click={() => send_to_mix("Writeups")} href="writeups">Writeups</a>
 		✧ <a href="/about">About</a> ✧ 

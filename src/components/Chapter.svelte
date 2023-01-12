@@ -332,13 +332,6 @@
                     <h1>{ti["downloads"][lshort]}</h1>
                     <span>
                         <a
-                            href="https://github.com/free-synd/ppmo-site/raw/master/public/offline/_COMPLETE/pdf/en-3.0-main.md.pdf"
-                            target="_blank"
-                            rel="noreferrer"
-                            title={ti["pdf-info"][lshort]}
-                            ><button class="button">PDF</button></a
-                        >
-                        <a
                             href="https://github.com/free-synd/ppmo-site/raw/master/public/offline/_COMPLETE/epub/en-3.0-main.md.epub"
                             target="_blank"
                             rel="noreferrer"
@@ -369,15 +362,12 @@
                             ><button class="button">ZIP</button></a
                         >
                         <br />
-                        <p>
+                        <p style="padding-left:10px;padding-right:10px;">
                             {ti["doc-info"][lshort]}
                         </p>
                         <a
                             on:click={() => send_to_mix("Physical Book")}
-                            href="https://www.lulu.com/shop/cat-guy/ppmo-paperback/paperback/product-gmz9p6.html"
-                            target="_blank"
-                            rel="noreferrer"
-                            title={ti["physical-info"][lshort]}
+                            href="/physical_copy"
                             >{ti["physical-copy"][lshort]}</a
                         >
                     </span>
@@ -497,16 +487,16 @@
             <button class="button" title="{ti["donate-info"][lshort]}" style="background-color:#314879">{ti["donate-opn"][lshort]}</button>
         </a> -->
             <a
-                on:click={() => send_to_mix("Writeups")}
-                href="/writeups"
+                on:click={() => send_to_mix("Neuroregen")}
+                href="https://neuroregen.org"
                 target="_blank"
                 rel="noreferrer"
             >
                 <button
                     class="button"
-                    title={ti["writeups-info"][lshort]}
+                    title="Neuroregen is a project supporting burgeon that exists to support and discover neuroregenerative practices."
                     style="background-color:#314879"
-                    >{ti["checkout-writeups"][lshort]}</button
+                    >Check out Neuroregen</button
                 >
             </a>
             <br /><br />
