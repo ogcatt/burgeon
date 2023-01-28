@@ -21,11 +21,11 @@ For example, at 9PM at evenings you can make a herbal chamomile/lavender tea. Ma
 This may seem like it is more a writeup to do with routine, but sleep does lie at the heart of routine so it is worthy to write about. Take care of your body and mind, and do not let yourself fall unmaintained. If you think nobody cares, I do. My heart reaches out to you all.
 
 Quick tip; Best supplements for sleep (these do not fix bad sleep timings):
-- Carsonic Acid
+- Carnosic Acid
 - Melatonin
 - Creatine
 - Glycine
-- Magnesium Threonate
+- Magnesium L-Threonate
 - L-Theanine
 
 You can also lower blue light with a night time filter (like flux) or by using (legit) blue light glasses. However, these recommendations do not compare to actually improving your sleep itself. It will pay off.
