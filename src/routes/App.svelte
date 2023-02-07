@@ -431,9 +431,9 @@
 			ru: "Скачать"
 		},
 		"doc-info": {
-			en: "PDF is available only through the printed copy (for now). EPUB is best for mobile devices, and ZIP/MD is best for copying text from the book.",
-			fr: "PDF is available only through the printed copy (for now). EPUB est le meilleur pour les appareils mobiles, et ZIP/MD est le meilleur pour copier le texte du livre.",
-			ru: "PDF is available only through the printed copy (for now). EPUB лучше для мобильных устройств, а ZIP/MD лучше что бы копировать текст из книги."
+			en: "PDF is available only through the printed copy. EPUB is best for mobile devices, and ZIP/MD is best for copying text from the book.",
+			fr: "PDF is available only through the printed copy. EPUB est le meilleur pour les appareils mobiles, et ZIP/MD est le meilleur pour copier le texte du livre.",
+			ru: "PDF is available only through the printed copy. EPUB лучше для мобильных устройств, а ZIP/MD лучше что бы копировать текст из книги."
 		},
 		"description-p1": {
 			en: "Freedom comes from understanding.",
