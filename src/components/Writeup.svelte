@@ -7,7 +7,7 @@
     export let md;
     export let notitles = false;
 
-    mixpanel.init('c5cad05270531f641b33c1e4809d7485', {debug: true, ignore_dnt: true});
+    mixpanel.init('69f9e45d45df5706a4dda82222fb4141', {debug: true, ignore_dnt: true});
     mixpanel.identify(ls_id);
     mixpanel.track(`Writeup`);
     mixpanel.track(`Writeup: ${title}`);

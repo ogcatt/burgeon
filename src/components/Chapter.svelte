@@ -206,7 +206,7 @@
         ls_id = date;
     }
 
-    mixpanel.init("c5cad05270531f641b33c1e4809d7485", {
+    mixpanel.init("69f9e45d45df5706a4dda82222fb4141", {
         debug: true,
         ignore_dnt: true,
     });
