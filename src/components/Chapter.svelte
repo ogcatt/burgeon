@@ -332,6 +332,13 @@
                     <h1>{ti["downloads"][lshort]}</h1>
                     <span>
                         <a
+                            href="/offline/COMPLETE/pdf/burgeon.pdf"
+                            target="_blank"
+                            rel="noreferrer"
+                            title={ti["pdf-info"][lshort]}
+                            ><button class="button">PDF</button></a
+                        >
+                        <a
                             href="/offline/COMPLETE/epub/en-4.0-main.md.epub"
                             target="_blank"
                             rel="noreferrer"
