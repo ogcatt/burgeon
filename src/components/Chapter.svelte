@@ -332,29 +332,21 @@
                     <h1>{ti["downloads"][lshort]}</h1>
                     <span>
                         <a
-                            href="https://github.com/free-synd/ppmo-site/raw/master/public/offline/_COMPLETE/epub/en-3.0-main.md.epub"
+                            href="/offline/COMPLETE/epub/en-4.0-main.md.epub"
                             target="_blank"
                             rel="noreferrer"
                             title={ti["epub-info"][lshort]}
                             ><button class="button">EPUB</button></a
                         >
                         <a
-                            href="https://github.com/free-synd/ppmo-site/raw/master/public/offline/_COMPLETE/epub/en-3.0-main.md-dark.epub"
+                            href="/offline/COMPLETE/epub/en-4.0-main.md-dark.epub"
                             target="_blank"
                             rel="noreferrer"
                             title={ti["epub-dark-info"][lshort]}
                             ><button class="button">EPUB (Dark)</button></a
                         >
                         <a
-                            href="https://raw.githubusercontent.com/free-synd/ppmo-site/master/public/offline/_COMPLETE/md/en-3.0-main.md"
-                            download
-                            target="_blank"
-                            rel="noreferrer"
-                            title={ti["md-info"][lshort]}
-                            ><button class="button">MD</button></a
-                        >
-                        <a
-                            href="https://raw.githubusercontent.com/free-synd/ppmo-site/master/public/offline/_COMPLETE/zip/en-3.0-main-markdown.zip"
+                            href="/offline/COMPLETE/zip/en-4.0-main-markdown.zip"
                             download
                             target="_blank"
                             rel="noreferrer"

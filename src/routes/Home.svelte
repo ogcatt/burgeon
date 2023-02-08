@@ -10,7 +10,7 @@
 	<p style="margin-top: 3px;">
 		{ti["description-p1"][lshort]}<br>
 		{ti["description-p2"][lshort]}<br>
-		We are part of the <a href="">neuroregen collective</a>.
+		We are part of the <a target="_blank" href="https://neuroregen.org">neuroregen collective [soon]</a>.
 	</p>
 	<span>
 	<span>Languages:</span>

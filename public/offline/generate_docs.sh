@@ -9,10 +9,10 @@ cd ../../src/markdown/english/
 # Print word counts
 
 
-for i in {0..11}; do
+for i in {1..10}; do
     awk '(FNR==1){print "# Chapter " FILENAME""}1' "$i. "*.md
     printf "\n"
-done > ../../../public/offline/_COMPLETE/md/en-3.0-main.md
+done > ../../../public/offline/COMPLETE/md/en-4.0-main.md
 echo Combined to MARKDOWN.
 
 echo ""
@@ -25,15 +25,13 @@ echo ""
 cd ../
 
 echo "Zipping MARKDOWN files"
-zip -r ../../public/offline/_COMPLETE/zip/en-3.0-main-markdown.zip english
+zip -r ../../public/offline/COMPLETE/zip/en-4.0-main-markdown.zip english
 echo "Zipping finished"
 echo ""
 
-cd ../../public/offline/_COMPLETE/md
+cd ../../public/offline/COMPLETE/md
 
 for filename in *.md; do
-    pandoc $filename -f gfm -V geometry:margin=0.9in -V papersize=A5 -o ../pdf/$filename-a5.pdf
-    pandoc $filename -f gfm -V geometry:margin=1.1in -V papersize=A4 -o ../pdf/$filename.pdf
     pandoc $filename -f gfm --toc --standalone --metadata=title:"ppmo ($filename)" --top-level-division=chapter --metadata=lang:"en-US" --metadata=author:"free-synd" --metadata=cover-image:"../../../images/ppmo_circle_web.png"  -o ../epub/$filename.epub
     pandoc $filename -f gfm --toc --standalone --metadata=title:"ppmo ($filename)" --css ../_DRACULA_THEME/dracula.css --top-level-division=chapter --metadata=lang:"en-US" --metadata=author:"free-synd" --metadata=cover-image:"../../../images/ppmo_circle_web.png"  -o ../epub/$filename-dark.epub
 done

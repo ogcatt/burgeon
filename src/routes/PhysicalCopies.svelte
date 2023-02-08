@@ -1,17 +1,15 @@
 <main>
-    <h2 style="margin-bottom:0px;">Phyiscal Copies</h2>
+    <h2 style="margin-bottom:0px;">Physical Copy</h2>
     <div class="cent-container">
-    <p style="max-width:650px;font-size: 17px;">
-        The physical copy is custom-designed and it is the most recommended way to read burgeon. There is minimal branding on the cover for those concerned, and it comes in both paperback and hardback.
-        <br><br>No profit is made from these sales.
+    <p style="max-width:450px;font-size: 17px;">
+        The physical copy is custom-designed and it is the best way to read burgeon. There is minimal branding on the cover for those concerned.
+        <br><br>
+        Reading the phyiscal copy is recommended because it shows you are serious.
     </p></div>
-    <br><br>
+    
     <div>
-        <h2>Paperback</h2>
-        <p>...</p>
-    </div>
-    <div>
-        <h2>Hardback</h2>
-        <p>...</p>
+        <a href="https://www.lulu.com/shop/anon/burgeon/hardcover/product-9gwrgr.html"><img src="images/whirly.png" class="img-light-up" alt="breuhh" height=400px></a>
+        <h2>Hardback Edition</h2>
+        <a href="https://www.lulu.com/shop/anon/burgeon/hardcover/product-9gwrgr.html"><button class="button">Buy Now</button></a>
     </div>
 </main>
