@@ -3,7 +3,7 @@
 	<div style="margin-top:15px;margin-bottom:15px;">
 		<a on:click={() => send_to_mix("Writeups")} href="writeups">Writeups</a>
 		✧ <a href="/about">About</a> ✧ 
-		<a href="/promo">Memes</a>
+		<a href="/promo">Contribute</a>
 	</div>
 	<img src="images/fluer1.svg" class="circle-light-up" style="filter: invert(100%); border: none;" title="{ti["name-info"][lshort]}" height=200px alt="logo banner">
 	<h1 class="light-up-underline" title="{ti["name-info"][lshort]}" style="margin-top:5px;">burgeon</h1>

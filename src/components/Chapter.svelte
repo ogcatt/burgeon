@@ -328,6 +328,27 @@
                     </select>
                     <p>{ti["choose-your-language"][lshort]}</p>
                     <p>! {ti["translations-warning"][lshort]} !</p>
+                    <p>Planned (Professional) Translations:</p>
+                    <ol>
+                        <li>
+                            Arabic
+                        </li>
+                        <li>
+                            Spanish
+                        </li>
+                        <li>
+                            German
+                        </li>
+                        <li>
+                            Porteguese
+                        </li>
+                        <li>
+                            Japanese
+                        </li>
+                        <li>
+                            Chinese
+                        </li>
+                    </ol>
                 {:else}
                     <h1>{ti["downloads"][lshort]}</h1>
                     <span>
@@ -338,6 +359,7 @@
                             title={ti["pdf-info"][lshort]}
                             ><button class="button">PDF [A5]</button></a
                         >
+                        <!--
                         <a
                             href="/offline/COMPLETE/epub/en-4.0-main.md.epub"
                             target="_blank"
@@ -352,6 +374,7 @@
                             title={ti["epub-dark-info"][lshort]}
                             ><button class="button">EPUB (Dark)</button></a
                         >
+                        -->
                         <a
                             href="/offline/COMPLETE/zip/en-4.0-main-markdown.zip"
                             download
