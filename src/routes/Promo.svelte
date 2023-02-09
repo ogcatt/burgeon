@@ -24,7 +24,7 @@
     <h3 style="margin-bottom:0px;padding-bottom:0px;">Donating?</h3>
     <div class="cent-container">
         <p style="max-width:550px;font-size: 17px;">
-            Another way you can help us is by donating. You can either do this by purchasing a physical copy of burgeon (or multiple), or by donating to the following Monero (XMR) address: <span style="background:black;"></span>
+            Another way you can help us is by donating. You can either do this by purchasing a physical copy of burgeon (or multiple).
         </p>
     </div>
 </main>
