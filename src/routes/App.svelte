@@ -748,12 +748,15 @@
 		<h3>Nootropics (Extra Section)</h3>
 		<div class="cent-container"><p style="max-width:500px;">Nootropics can aid in speeding up dopaminergic recovery, but they will not take steps for you. Most are herbal copes, and are wastes of money. I have researched into nootropics thoroughly and these are likely the nootropics with the most potential to speed up the PMO recovery process. You should research these yourself if you are interested.</p></div>
 		<div class="cent-container"><ul style="text-align:left; max-width:400px;">
+		<ol>
+			<li>Neboglamine: An incredibly promising nootropic with anti-hedonistic effects</li><br>
 			<li>NACET: A more potent version of NAC</li><br>
-			<li>Bromantane (IN): A permanent dopamine upregulator</li><br>
-			<li>ALCAR: A dopamine upregular and acetylcholine increaser</li><br>
-			<li>Cortexin (IN): A collection of peptides that aids fixing problems with the brain</li><br>
-			<li>[Experimental] Neboglamine: A potential candidate for recovery</li><br>
-		</ul></div>
+			<!--<li>ALCAR: A dopamine upregular and acetylcholine increaser</li><br>-->
+			<li>Cortexin (Intranasal): A collection of peptides that aids fixing damage to the brain</li><br>
+			<li>ALCAR: A lasting dopamine upregulator</li><br>
+			<li>Bromantane: A lasting dopamine upregulator with T boosting effects</li>
+		</ol>
+	</div>
 	</Route>
 
 
