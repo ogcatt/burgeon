@@ -383,6 +383,14 @@
                             title={ti["zip-info"][lshort]}
                             ><button class="button">ZIP</button></a
                         >
+                        <a
+                            href="/offline/COMPLETE/pdf/A5-ppmo-en-3.0-main.pdf"
+                            download
+                            target="_blank"
+                            rel="noreferrer"
+                            title="Archive copy of ppmo"
+                            ><button class="button">OLD (PPMO A5 PDF)</button></a
+                        >
                         <br />
                         <p style="padding-left:10px;padding-right:10px;">
                             {ti["doc-info"][lshort]}
