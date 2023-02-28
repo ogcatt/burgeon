@@ -750,13 +750,20 @@
 		<div class="cent-container"><ul style="text-align:left; max-width:400px;">
 		<ol>
 			<li>Neboglamine: An incredibly promising nootropic with anti-hedonistic effects</li><br>
-			<li>NACET: A more potent version of NAC</li><br>
-			<!--<li>ALCAR: A dopamine upregular and acetylcholine increaser</li><br>-->
-			<li>Cortexin (Intranasal): A collection of peptides that aids fixing damage to the brain</li><br>
-			<li>ALCAR: A lasting dopamine upregulator</li><br>
-			<li>Bromantane: A lasting dopamine upregulator with T boosting effects</li>
-		</ol>
-	</div>
+			<li>Low-Dose Naltrexone: An endorphin inhibitor</li><br>
+			<li>NACET: A more potent version of NAC</li>
+		</ol></ul>
+		</div>
+		<br>
+		<hr style="width:75px;">
+		<h2>Extra</h2>
+		<div class="cent-container"><ul style="text-align:left; max-width:400px;">
+			<ul>
+				<li>Cortexin (Intranasal): A collection of peptides that aids fixing damage to the brain</li><br>
+				<li>ALCAR: A lasting dopamine upregulator</li><br>
+				<li>Bromantane: A lasting dopamine upregulator with T boosting effects</li>
+			</ul></ul>
+			</div>
 	</Route>
 
 
