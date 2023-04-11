@@ -1,11 +1,12 @@
 <main>
 	<title>Burgeon</title>
 	<img src="images/fluer1.svg" class="circle-light-up" style="filter: invert(100%); border: none;" title="{ti["name-info"][lshort]}" height=200px alt="logo banner">
-	<h2 class="light-up-underline" title="{ti["name-info"][lshort]}" style="margin-top:5px;margin-bottom:0">The Bruteforce Method</h2>
+	<h2 class="light-up-underline" title="{ti["name-info"][lshort]}" style="margin-top:5px;margin-bottom:0">The Bruteforce "Method"</h2>
 	<div class="cent-container">
 	<ol style="max-width:450px;">
-		<p style="margin-top:0">If everything else fails, follow these steps. This may seem completely unorthidox, but this will work. The question is, what are you willing to sacrifice to get what you want?</p>
-		<p>Both LDN and Neboglamine are safe, well tolerated, and have passed clinical trials. They are compounds that modulate the brain and body to change the dichotomy of control within a human.</p>
+		<p style="margin-top:0">If everything else fails, follow these steps. This is basically a last-resort thing. This may seem completely unorthidox, but this will work. The question is, what are you willing to sacrifice to get what you want?</p>
+		<p>Both LDN and Neboglamine (nootropic/supplementary compounds) are safe, well tolerated, and have passed clinical trials. They are compounds that modulate the brain and body to change the dichotomy of control within a human.</p>
+		<p>The process essentially uses both of these on top of education to make quitting easy for those whose brain chemistry seems obliterated beyond repair.</p>
 		<li>For this method, you will need to purchase 2 compounds, named LDN (Low Dose Naltrexone) and Neboglamine. Doseage must be started simultaneously, regardless if one arrives first.</li>
 		<li>This method costs ~90-140$. If you do not have this money, don't be a bitch about it. If you care enough, sell something you don't need. Cut somebodies lawn. Work online. If you want freedom bad enough, you will find some money.</li>
 		<li>Purchase 1.5g Neboglamine <a target="_blank" href="https://everychem.com/product/neboglamine-powder-1-5g/">[Source]</a> and purchase 10x50mg LDN (or 5x 1x50mg capsules) <a target="_blank" href="https://cosmicnootropic.com/products/naltrexone/">[Source 1]</a>. Do this only if you can buy both at the same time. ALSO buy a pippette if you do not have one (one that measures >10ml).</li>

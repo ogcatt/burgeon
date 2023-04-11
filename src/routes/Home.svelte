@@ -3,8 +3,8 @@
 	<div style="margin-top:15px;margin-bottom:15px;">
 		<a on:click={() => send_to_mix("Writeups")} href="writeups">Writeups</a>
 		✧ <a href="/about">About</a> ✧ 
-		<a href="/promo">Contribute</a> ✧
-		<a href="/brute">Bruteforce Method</a>
+		<a href="/promo">Contribute</a><!-- ✧
+		<a href="/brute">Bruteforce Method</a>-->
 	</div>
 	<img src="images/fluer1.svg" class="circle-light-up" style="filter: invert(100%); border: none;" title="{ti["name-info"][lshort]}" height=200px alt="logo banner">
 	<h1 class="light-up-underline" title="{ti["name-info"][lshort]}" style="margin-top:5px;">burgeon</h1>
@@ -28,6 +28,7 @@
 	<div style="padding-top:5px;font-size: 18px;"><a href="/chapter/1">Online version</a></div>
 	-->
 	<a href="/chapter/1"><button class="button">Online Version</button></a><br>
+	<div style="padding-top:5px;font-size: 18px;"><a href="/brute">Bruteforce Method</a></div>
 	<br>
 	<!-- <a on:click={() => send_to_mix("Audiobook")} href="https://odysee.com/ppmo_audiobook_v3:e" rel="noreferrer" title="{ti["audiobook-info"][lshort]}">{ti["audiobook"][lshort]}</a> ✧ -->
 	<!-- <a on:click={() => send_to_mix("Donate")} href="https://opencollective.com/ppmo-collective-fund" target="_blank" rel="noreferrer" title="{ti["donate-info"][lshort]}">{ti["donate"][lshort]}</a> ✧ --> 
