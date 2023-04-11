@@ -23,9 +23,11 @@
 	<br>
 	<!--<p><b>New <u><a href="/writeups">Writeups</a></u> section!</b></p>--><br>
 	
-	
+	<!--
 	<a on:click={() => send_to_mix("Physical Book")} href="physical_copy" rel="noreferrer"><button class="button">Physical Copy</button></a><br>
 	<div style="padding-top:5px;font-size: 18px;"><a href="/chapter/1">Online version</a></div>
+	-->
+	<a href="/chapter/1"><button class="button">Online Version</button></a><br>
 	<br>
 	<!-- <a on:click={() => send_to_mix("Audiobook")} href="https://odysee.com/ppmo_audiobook_v3:e" rel="noreferrer" title="{ti["audiobook-info"][lshort]}">{ti["audiobook"][lshort]}</a> ✧ -->
 	<!-- <a on:click={() => send_to_mix("Donate")} href="https://opencollective.com/ppmo-collective-fund" target="_blank" rel="noreferrer" title="{ti["donate-info"][lshort]}">{ti["donate"][lshort]}</a> ✧ --> 
