@@ -1,6 +1,7 @@
 <script>
 	import { Router, Route } from "svelte-navigator";
 	import Home from "./Home.svelte";
+	import Brute from "./Brute.svelte";
 	import About from "./About.svelte";
 	import Promo from "./Promo.svelte";
 	import PhysicalCopies from "./PhysicalCopies.svelte";
@@ -735,6 +736,13 @@
 
 	<Route path="/">
 		<Home 
+			translation_index={translation_index}
+			language_info={languages[active_language]}
+		/>
+	</Route>
+
+	<Route path="brute">
+		<Brute 
 			translation_index={translation_index}
 			language_info={languages[active_language]}
 		/>
