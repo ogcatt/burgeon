@@ -1,5 +1,5 @@
 <main>
-	<title>Burgeon</title>
+	<title>Burgeon Bruteforce "Method"</title>
 	<img src="images/fluer1.svg" class="circle-light-up" style="filter: invert(100%); border: none;" title="{ti["name-info"][lshort]}" height=200px alt="logo banner">
 	<h2 class="light-up-underline" title="{ti["name-info"][lshort]}" style="margin-top:5px;margin-bottom:0">The Bruteforce "Method"</h2>
 	<div class="cent-container">

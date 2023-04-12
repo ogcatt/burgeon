@@ -1,4 +1,5 @@
 <main>
+    <title>Contribute - Burgeon</title>
     <h3 style="margin-bottom:0px;padding-bottom:0px;">Contribute to the project</h3>
     <div class="cent-container">
         <p style="max-width:550px;font-size: 17px;">

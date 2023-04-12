@@ -117,6 +117,15 @@
 
     const update_language = () => {
         localStorage.setItem("active_language", selected_language);
+        if (selected_language == "arabic") {
+            localStorage.setItem("align", "right");
+            for (let i = 0; i < aligns.length; i++) {
+                document.documentElement.classList.remove(
+                    aligns[i].real + "-align"
+                );
+            }
+            document.documentElement.classList.add(selected_align.real + "-align");
+        }
         location.reload();
     };
 
@@ -217,8 +226,15 @@
     function send_to_mix(text) {
         mixpanel.track(text);
     }
+
+    function handle_load() {
+        if (lshort == "ar") {
+            document.getElementById("eee").style.textAlign = "right";
+        }
+    }
 </script>
 
+<svelte:window on:load="{()=>handle_load()}"/>
 <main>
     <header>
         <title>{ti["chapter"][lshort]} {chapter} - {title} (Burgeon)</title>
@@ -304,12 +320,13 @@
                 -->
 
                     <br /><br />
+                    <!--
                     <a
                         href="https://eu.mixpanel.com/p/KYZL3Q3ABCd3yuKLTnbcTX"
                         target="_blank"
                         rel="noreferrer">{ti["stats"][lshort]}</a
                     >
-                    | {ti["current-b-version"][lshort]}: {language_info[
+                    | -->{ti["current-b-version"][lshort]}: {language_info[
                         "tsn"
                     ]}-{language_info["version"]}
                 {:else if popup_type == "languages"}
@@ -500,7 +517,7 @@
         {/if}
 
         <div class="cent-container">
-            <div class="chapter">
+            <div class="chapter eee">
                 <Markdown markdown={md} />
             </div>
         </div>
@@ -526,7 +543,7 @@
                     class="button"
                     title="Neuroregen is a project supporting burgeon that exists to support and discover neuroregenerative practices."
                     style="background-color:#314879"
-                    >Check out Neuroregen</button
+                    >{ti["check-neuroregen"][lshort]}</button>
                 >
             </a>
             <br /><br />

@@ -2,8 +2,8 @@
 	<title>Burgeon</title>
 	<div style="margin-top:15px;margin-bottom:15px;">
 		<a on:click={() => send_to_mix("Writeups")} href="writeups">Writeups</a>
-		✧ <a href="/about">About</a> ✧ 
-		<a href="/promo">Contribute</a><!-- ✧
+		✧ <a href="/about">{ti["about"][lshort]}</a> ✧ 
+		<a href="/promo">{ti["contribute"][lshort]}</a><!-- ✧
 		<a href="/brute">Bruteforce Method</a>-->
 	</div>
 	<img src="images/fluer1.svg" class="circle-light-up" style="filter: invert(100%); border: none;" title="{ti["name-info"][lshort]}" height=200px alt="logo banner">
@@ -14,7 +14,7 @@
 		We are part of the <a target="_blank" href="https://neuroregen.org">neuroregen collective [soon]</a>.
 	</p>
 	<span>
-	<span>Languages:</span>
+	<span>{ti["languages"][lshort]}:</span>
 	<img class="mini-flag" src="images/flags/us.svg" alt="us" title="{ti["lang-disclaim"][lshort]}">
 	<!--{#each ["fr", "ru"] as lang}
 	<img class="mini-flag" src="images/flags/{lang}.svg" alt="{lang}" style="filter: grayscale(1);" title="{ti["lang-disclaim"][lshort]}">
@@ -27,8 +27,8 @@
 	<a on:click={() => send_to_mix("Physical Book")} href="physical_copy" rel="noreferrer"><button class="button">Physical Copy</button></a><br>
 	<div style="padding-top:5px;font-size: 18px;"><a href="/chapter/1">Online version</a></div>
 	-->
-	<a href="/chapter/1"><button class="button">Online Version</button></a><br>
-	<div style="padding-top:5px;font-size: 18px;"><a href="/brute">Bruteforce Method</a></div>
+	<a href="/chapter/1"><button class="button">{ti["online-version"][lshort]}</button></a><br>
+	<div style="padding-top:5px;font-size: 18px;"><a href="/brute">{ti["bruteforce-method"][lshort]}</a></div>
 	<br>
 	<!-- <a on:click={() => send_to_mix("Audiobook")} href="https://odysee.com/ppmo_audiobook_v3:e" rel="noreferrer" title="{ti["audiobook-info"][lshort]}">{ti["audiobook"][lshort]}</a> ✧ -->
 	<!-- <a on:click={() => send_to_mix("Donate")} href="https://opencollective.com/ppmo-collective-fund" target="_blank" rel="noreferrer" title="{ti["donate-info"][lshort]}">{ti["donate"][lshort]}</a> ✧ --> 
