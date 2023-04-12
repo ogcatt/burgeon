@@ -125,6 +125,14 @@
                 );
             }
             document.documentElement.classList.add(selected_align.real + "-align");
+        } else if (selected_language == "english") {
+            localStorage.setItem("align", "left");
+            for (let i = 0; i < aligns.length; i++) {
+                document.documentElement.classList.remove(
+                    aligns[i].real + "-align"
+                );
+            }
+            document.documentElement.classList.add(selected_align.real + "-align");
         }
         location.reload();
     };
@@ -229,7 +237,10 @@
 
     function handle_load() {
         if (lshort == "ar") {
-            document.getElementById("eee").style.textAlign = "right";
+            let eee = document.getElementById("eee");
+            eee.style.textAlign = "right";
+            eee.dir="rtl";
+            eee.lang="ar";
         }
     }
 </script>
@@ -517,8 +528,12 @@
         {/if}
 
         <div class="cent-container">
-            <div class="chapter eee">
-                <Markdown markdown={md} />
+            <div class="chapter eee" lang="ar">
+                <Markdown
+                markdown={md} 
+                translation_index={translation_index}
+			    language_info={language_info}
+                />
             </div>
         </div>
         {#if chapter == chapters.length}
@@ -544,7 +559,7 @@
                     title="Neuroregen is a project supporting burgeon that exists to support and discover neuroregenerative practices."
                     style="background-color:#314879"
                     >{ti["check-neuroregen"][lshort]}</button>
-                >
+                
             </a>
             <br /><br />
         {/if}

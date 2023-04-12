@@ -21,6 +21,15 @@
 	import C9_EN from "../markdown/english/9. Understandings.md";
 	import C10_EN from "../markdown/english/10. Movement.md";
 
+	// Chapters (Arabic)
+	import C1_AR from "../markdown/arabic/1. Introduction.md";
+	import C2_AR from "../markdown/arabic/2. Stray Cat.md";
+	import C3_AR from "../markdown/arabic/3. Effects.md";
+	import C4_AR from "../markdown/arabic/4. Brainwashing.md";
+	import C5_AR from "../markdown/arabic/5. Love.md";
+	import C6_AR from "../markdown/arabic/6. Neurology.md";
+	import C7_AR from "../markdown/arabic/7. Environment.md";
+
 	// Writeups (English)
 	import EgoDeath_EN from "../writeups/Ego Death.md";
 	import Stress_EN from "../writeups/Stress.md";
@@ -262,64 +271,64 @@
 
 
 	let chapters_ar = [
-		{
-			name: "Introduction",
-			title: "Introduction",
-			md: C1_EN
-		},
-		{
-			name: "Stray Cat",
-			title: "Stray Cat",
-			
-			md: C2_EN
-		},
-		{
-			name: "Effects",
-			title: "Effects",
-			subtitle: "Benefits Or Removal Of Negatives?",
-			md: C3_EN
-		},
-		{
-			name: "Brainwashing",
-			title: "Brainwashing",
-			md: C4_EN
-		},
-		{
-			name: "Love",
-			title: "Love",
-			subtitle: "Unhealthy Views On Sex & Love",
-			md: C5_EN
-		},
-		{
-			name: "Neurology",
-			title: "Neurology",
-			subtitle: "Interaction With Thoughts...",
-			md: C6_EN
-		},
-		{
-			name: "Environment",
-			title: "Environment",
-			md: C7_EN
-		},
-		{
-			name: "Transmutation",
-			title: "Transmutation",
-			subtitle: "The Essence Of Energy",
-			md: C8_EN
-		},
-		{
-			name: "Understandings",
-			title: "Understandings",
-			subtitle: "The Little Things",
-			md: C9_EN
-		},
-		{
-			name: "Movement",
-			title: "Movement",
-			subtitle: "What Is Next",
-			md: C10_EN
-		},
-	]
+	{
+		name: "Introduction",
+		title: "المقدمة",
+		md: C1_AR,
+	},
+	{
+		name: "Stray Cat",
+		title: "القط الضائع",
+
+		md: C2_AR,
+	},
+	{
+		name: "Effects",
+		title: "التأثيرات",
+		subtitle: "ايجابيات، ام التخلص من السلبيات؟",
+		md: C3_AR,
+	},
+	{
+		name: "Brainwashing",
+		title: "غسيل الدماغ",
+		md: C4_AR,
+	},
+	{
+		name: "Love",
+		title: "الحب",
+		subtitle: "وجهات نظر غير صحية للجنس و الحب.",
+		md: C5_AR,
+	},
+	{
+		name: "Neurology",
+		title: "علم العقل",
+		subtitle: "التفاعل مع الأفكار…",
+		md: C6_AR,
+	},
+	{
+		name: "Environment",
+		title: "البيئة",
+		md: C7_AR,
+	},
+	{
+		name: "Transmutation",
+		title: "التَحول",
+		subtitle: "جوهر الطاقة",
+		md: C8_EN,
+	},
+	{
+		name: "Understandings",
+		title: "الفهم",
+		subtitle: "بعض الأشياء الصغيرة",
+		md: C9_EN,
+	},
+	{
+		name: "Movement",
+		title: "التحرك",
+		subtitle: "ما الخطوة القادمة؟",
+		md: C10_EN,
+	},
+	];
 
 
 	let chapter_langs = {
@@ -461,9 +470,9 @@
 			ar: "النسخة الأونلاين",
 		},
 		"bruteforce-method": {
-			en: "Bruteforce Method",
-			fr: "Bruteforce Method",
-			ru: "Bruteforce Method",
+			en: "The Bruteforce Strat",
+			fr: "The Bruteforce Strat",
+			ru: "The Bruteforce Strat",
 			ar: "الطريقة الغشيمة",
 		},
 		"check-neuroregen": {
@@ -617,10 +626,10 @@
 			ar: "بعض الالحان المناسبة. من Lil Darkie - Dreaming",
 		},
 		"audio2-info": {
-			en: "What I thought would be a nice outro. Song is by VilloVilduVeta - Längtan Får Vingar.",
-			fr: "What I thought would be a nice outro. Song is by VilloVilduVeta - Längtan Får Vingar.",
-			ru: "What I thought would be a nice outro. Song is by VilloVilduVeta - Längtan Får Vingar.",
-			ar: "ما اظن انها خاتمة جيدة. الاغنيه هي VilloVilduVeta - Längtan Får Vingar ",
+			en: "What I thought would be a nice outro. Song is by Lindsheaven Virtual Plaza - Polynomial Voices.",
+			fr: "What I thought would be a nice outro. Song is by Lindsheaven Virtual Plaza - Polynomial Voices.",
+			ru: "What I thought would be a nice outro. Song is by Lindsheaven Virtual Plaza - Polynomial Voices.",
+			ar: "ما اظن انها خاتمة جيدة. الاغنيه هي Lindsheaven Virtual Plaza - Polynomial Voices",
 		},
 		"mark-done": {
 			en: "Mark Done",
