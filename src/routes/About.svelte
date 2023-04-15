@@ -29,7 +29,10 @@
 
     function handle_load() {
         if (lshort == "ar") {
-            document.getElementById("eee").style.textAlign = "right";
+            let eee = document.getElementById("eee");
+            eee.style.textAlign = "right";
+            eee.dir="rtl";
+            eee.lang="ar";
         }
     }
     
