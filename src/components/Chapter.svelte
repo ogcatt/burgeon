@@ -355,7 +355,6 @@
                         {/each}
                     </select>
                     <p>{ti["choose-your-language"][lshort]}</p>
-                    <p>! {ti["translations-warning"][lshort]} !</p>
                     <p>Planned Translations:</p>
                     <div>
                         <div>
