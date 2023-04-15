@@ -13,14 +13,17 @@
 		{ti["description-p2"][lshort]}<br>
 		We are part of the <a target="_blank" href="https://neuroregen.org">neuroregen collective [soon]</a>.
 	</p>
+	<p title="Visit the Online Version of the book and then the languages tab to switch to Arabic." style="font-size: 19px;margin-bottom:0px;">🚨 <span class="rainbow_text_animated">Now Supporting Arabic!</span> 🚨</p>
 	<span>
-	<span>{ti["languages"][lshort]}:</span>
-	<img class="mini-flag" src="images/flags/us.svg" alt="us" title="{ti["lang-disclaim"][lshort]}">
-	<!--{#each ["fr", "ru"] as lang}
-	<img class="mini-flag" src="images/flags/{lang}.svg" alt="{lang}" style="filter: grayscale(1);" title="{ti["lang-disclaim"][lshort]}">
-	{/each}-->
-	</span>
-	<br>
+		<!--
+		<span>{ti["languages"][lshort]}:</span>
+		<b>English, Arabic</b>
+		{#each ["fr", "ru"] as lang}
+		<img class="mini-flag" src="images/flags/{lang}.svg" alt="{lang}" style="filter: grayscale(1);" title="{ti["lang-disclaim"][lshort]}">
+		{/each}
+		-->
+		</span>
+	
 	<!--<p><b>New <u><a href="/writeups">Writeups</a></u> section!</b></p>--><br>
 	
 	<!--

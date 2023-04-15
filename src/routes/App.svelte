@@ -29,6 +29,8 @@
 	import C5_AR from "../markdown/arabic/5. Love.md";
 	import C6_AR from "../markdown/arabic/6. Neurology.md";
 	import C7_AR from "../markdown/arabic/7. Environment.md";
+	import C8_AR from "../markdown/arabic/8. Transmutation.md";
+	import C9_AR from "../markdown/arabic/9. Understandings.md";
 
 	// Writeups (English)
 	import EgoDeath_EN from "../writeups/Ego Death.md";
@@ -68,7 +70,7 @@
 			short_name: "ar",
 			tsn: "AR",
 			version: "4.0"
-		},
+		},/*
 		french: {
 			name: "french",
 			title_name: "French",
@@ -86,7 +88,7 @@
 			short_name: "ru",
 			tsn: "RU",
 			version: "4.0"
-		},
+		},*/
 	};
 
 	let chapters_en = [
@@ -314,13 +316,13 @@
 		name: "Transmutation",
 		title: "التَحول",
 		subtitle: "جوهر الطاقة",
-		md: C8_EN,
+		md: C8_AR,
 	},
 	{
 		name: "Understandings",
 		title: "الفهم",
 		subtitle: "بعض الأشياء الصغيرة",
-		md: C9_EN,
+		md: C9_AR,
 	},
 	{
 		name: "Movement",
@@ -972,8 +974,8 @@
 		<div class="cent-container"><p style="max-width:500px;">Nootropics can aid in speeding up dopaminergic recovery, but they will not take steps for you. Most are herbal copes, and are wastes of money. I have researched into nootropics thoroughly and these are likely the nootropics with the most potential to speed up the PMO recovery process. You should research these yourself if you are interested.</p></div>
 		<div class="cent-container"><ul style="text-align:left; max-width:400px;">
 		<ol>
-			<li>Neboglamine: An incredibly promising nootropic with anti-hedonistic effects</li><br>
 			<li>Low-Dose Naltrexone: An endorphin inhibitor</li><br>
+			<li>Neboglamine: An incredibly promising nootropic with anti-hedonistic effects</li><br>
 			<li>NACET: A more potent version of NAC</li>
 		</ol></ul>
 		</div>
@@ -982,7 +984,7 @@
 		<h2>Extra</h2>
 		<div class="cent-container"><ul style="text-align:left; max-width:400px;">
 			<ul>
-				<li>Cortexin (Intranasal): A collection of peptides that aids fixing damage to the brain</li><br>
+				<li>Pinealon (Intranasal): A peptide that looks promising to reverse brain dysfunction</li><br>
 				<li>ALCAR: A lasting dopamine upregulator</li><br>
 				<li>Bromantane: A lasting dopamine upregulator with T boosting effects</li>
 			</ul></ul>

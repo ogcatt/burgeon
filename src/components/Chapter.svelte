@@ -356,27 +356,25 @@
                     </select>
                     <p>{ti["choose-your-language"][lshort]}</p>
                     <p>! {ti["translations-warning"][lshort]} !</p>
-                    <p>Planned (Professional) Translations:</p>
-                    <ol>
-                        <li>
-                            Arabic
-                        </li>
-                        <li>
-                            Spanish
-                        </li>
-                        <li>
-                            German
-                        </li>
-                        <li>
-                            Porteguese
-                        </li>
-                        <li>
-                            Japanese
-                        </li>
-                        <li>
-                            Chinese
-                        </li>
-                    </ol>
+                    <p>Planned Translations:</p>
+                    <div>
+                        <div>
+                            • Spanish
+                        </div>
+                        <div>
+                            • German
+                        </div>
+                        <div>
+                            • Porteguese
+                        </div>
+                        <div>
+                            • Japanese
+                        </div>
+                        <div>
+                            • Chinese
+                        </div>
+                    </div>
+                    <br>
                 {:else}
                     <h1>{ti["downloads"][lshort]}</h1>
                     <span>

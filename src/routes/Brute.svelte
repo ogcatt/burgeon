@@ -4,7 +4,8 @@
 	<h2 class="light-up-underline" title="{ti["name-info"][lshort]}" style="margin-top:5px;margin-bottom:0">{ti["bruteforce-method"][lshort]}</h2>
 	<div class="cent-container">
 	<div style="max-width:600px;margin-top:15px;" class="amogus">
-		<p style="margin-top:0">If everything else fails, follow these steps. This is basically a last-resort stratergy for those batshit addicted to pornography. This may seem completely unorthidox, but this will work. This strat uses the combination of nootropic compounds with burgeon to heal the brain from damage.</p>
+		<p style="margin-top:0">P.S you can change the language of the entire site in the Online Book settings.</p>
+		<p>If everything else fails, follow these steps. This is basically a last-resort stratergy for those batshit addicted to pornography. This may seem completely unorthidox, but this will work. This strat uses the combination of nootropic compounds with burgeon to heal the brain from damage.</p>
 		<p>For most people, they can gain the understandings they need from just burgeon alone, which is great. Some people also require intervention in this sort with LDN/Neboglamine to aid in repair. Either are great, and neither have downsides.</p>
 		<p>Both LDN and Neboglamine (nootropic/supplementary compounds) are safe, well tolerated, and have passed clinical trials. They are compounds that modulate the brain and body to change the dichotomy of control within a human.</p>
 		<p>The process essentially uses both of these on top of education to make quitting easy for those whose brain chemistry seems obliterated beyond repair.</p>
@@ -21,12 +22,9 @@
 		<div>Now when you have these sessions, watch everything that previously attracted you. Force yourself to go through with this process.</div>
 		<div>After you do this (grueling, I know) process of 3 consecutive porn sessions, read the entire book of burgeon in one go. <a href="/chapter/1">Visit here</a></div>
 		<div>Reading the book should take under 2 hours max. Once you have read the book, return to this page and continue. This is an important step because then you can leave and understand the process.</div>
-		<div>Now after this, you should go for the plunge. The plunge is a 15 minute cold shower. This is something you must do, as a cleanse of sorts.</div>
-		<div>Go into this shower, and turn your shower to the coldest available setting. Step right in to this coldest available setting. Time the 15 minutes you stay in the cold.</div>
-		<div>After these 15 minutes is up, when you step out, a large weight will be released off of your shoulders. This practice is mostly sentimental but it marks a point of memory, to show you actually want this.</div>
 		<div>When these steps are completed, continue dosing Neboglamine and LDN until they run out. You may feel like you don't need them anymore, but trust the process, keep taking them until the supply ends.</div>
-		<p>If you do all of these steps, I have complete confidence that you will never have to worry about porn ever again. Call it unorthidox, call it artificial, call it dumb. But it works.</p>
-		<p>Most people will read these steps, and continue being enslaved to porn for the rest of their lives. Will you be the one who is different from the many? I challenge you. I don't think you have the guts to do this. I don't think you want to leave bad enough. Do you? Prove me wrong.</p>
+		<p>If you do all of these steps, you will likely never have to worry about porn addiction again. Call it unorthodox, call it artificial, call it dumb. But it is something with a high success.</p>
+		<p>Most people will read these steps, and continue being enslaved to porn for the rest of their lives. Will you be the one who is different from the many? I challenge you. Do you want to leave your addiction?</p>
 	</div>
 	</div>
 </main>
