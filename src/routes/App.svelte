@@ -31,6 +31,7 @@
 	import C7_AR from "../markdown/arabic/7. Environment.md";
 	import C8_AR from "../markdown/arabic/8. Transmutation.md";
 	import C9_AR from "../markdown/arabic/9. Understandings.md";
+	import C10_AR from "../markdown/arabic/10. Movement.md";
 
 	// Writeups (English)
 	import EgoDeath_EN from "../writeups/Ego Death.md";
@@ -328,7 +329,7 @@
 		name: "Movement",
 		title: "التحرك",
 		subtitle: "ما الخطوة القادمة؟",
-		md: C10_EN,
+		md: C10_AR,
 	},
 	];
 
