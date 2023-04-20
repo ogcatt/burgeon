@@ -13,7 +13,7 @@
 		{ti["description-p2"][lshort]}<br>
 		We are part of the <a target="_blank" href="https://neuroregen.org">neuroregen collective [soon]</a>.
 	</p>
-	<p title="Visit the Online Version of the book and then the languages tab to switch to Arabic." style="font-size: 19px;margin-bottom:0px;">🚨 <span class="rainbow_text_animated">Now Supporting Arabic!</span> 🚨</p>
+	<p title="This is to spread our influence." style="font-size: 19px;margin-bottom:0px;">🚨 <span class="rainbow_text_animated"><a target="_blank" style="text-decoration:underline" rel="noreferrer" href="https://twitter.com/burgeonbook">Follow @burgeonbook</a></span> 🚨</p>
 	<span>
 		<!--
 		<span>{ti["languages"][lshort]}:</span>

@@ -12,6 +12,8 @@
     {ti["about-p4"][lshort]}
     <br><br>
     {ti["about-p5"][lshort]}
+    <br><br>
+    <span>Our twitter: <a href="https://twitter.com/burgeonbook">@burgeonbook</a></span>
     </p>
     </div>
     <br>
