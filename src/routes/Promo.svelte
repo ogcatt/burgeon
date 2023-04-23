@@ -1,11 +1,15 @@
 <main>
     <title>Contribute - Burgeon</title>
+    <meta property="og:title" content="Burgeon - Contribute" />
+    <a href="/">← Back to Home</a><br>
     <h3 style="margin-bottom:0px;padding-bottom:0px;">Contribute to the project</h3>
     <div class="cent-container">
         <p style="max-width:550px;font-size: 17px;">
             If you want to help this project, there are many ways you can do this.
             <br><br>
-            One way is following our twitter <a href="https://twitter.com/burgeonbook">@burgeonbook</a>, and sharing the <a href="https://burgeonbook.org">https://burgeonbook.org</a> link. If you describe it, describe it as a book, not a guide, as it is best not misrepresented.
+            One way is following our twitter <a href="https://twitter.com/burgeonbook">@burgeonbook</a>, and sharing the <a href="https://burgeonbook.org">https://burgeonbook.org</a> link. If you talk about burgeon, please describe it as a book, not a guide, as it is best not misrepresented.
+            <br><br>
+            On our twitter page we also have some promotional videos/memes which you can share.
         </p>
     </div>
     <h3 style="margin-bottom:0px;padding-bottom:0px;">What about translations?</h3>

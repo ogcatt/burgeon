@@ -42,7 +42,7 @@
     import Markdown from "../components/Markdown.svelte";
 
 	// If this changes, book progress is removed
-	const major_vers = "4.0-main";
+	const major_vers = "4.1-main";
 	const exist_vers = localStorage.getItem("book_version");
 
 	if (exist_vers != undefined) {
@@ -61,7 +61,7 @@
 			native_title_name: "English",
 			short_name: "en",
 			tsn: "EN",
-			version: "4.0"
+			version: "4.1"
 		},
 		arabic: {
 			name: "arabic",
@@ -70,7 +70,7 @@
 			native_title_name: "العربية",
 			short_name: "ar",
 			tsn: "AR",
-			version: "4.0"
+			version: "4.1"
 		},/*
 		french: {
 			name: "french",
@@ -913,6 +913,7 @@
 		</Route>
 	{/each}
 
+	<!--
 	{#each writeups as writeup, i}
 		<Route path="writeup/{make_noice_link(writeup.link)}">
 			<Writeup
@@ -924,10 +925,11 @@
 			/>
 		</Route>
 	{/each}
-
+	-->
+	<!--
 	<Route path="writeups">
 		<title>Writeups</title>
-		<!--<div style="background-image: url('../images/ring.svg');background-repeat: repeat-x; height: 40px; width: 100%; background-size: 40px 70px;"></div>-->
+		<div style="background-image: url('../images/ring.svg');background-repeat: repeat-x; height: 40px; width: 100%; background-size: 40px 70px;"></div>
 		<h1 class="light-up-underline">Writeups</h1>
 		<img src="../images/branches.gif" class="img-light-up" style="max-width:280px;" alt="nice looking gif">
 		<p>Addressing the world-<br>
@@ -940,6 +942,7 @@
 		{/each}
 		</ul>
 	</Route>
+	-->
 
 	<Route path="about">
 		<About 

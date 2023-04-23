@@ -1,5 +1,7 @@
 <main>
 	<title>{ti["bruteforce-method"][lshort]} - Burgeon</title>
+	<meta property="og:title" content="Burgeon Bruteforce Strat" />
+	<a href="/">← Back to Home</a><br>
 	<img src="images/fluer1.svg" class="circle-light-up" style="filter: invert(100%); border: none;" title="{ti["name-info"][lshort]}" height=200px alt="logo banner">
 	<h2 class="light-up-underline" title="{ti["name-info"][lshort]}" style="margin-top:5px;margin-bottom:0">{ti["bruteforce-method"][lshort]}</h2>
 	<div class="cent-container">

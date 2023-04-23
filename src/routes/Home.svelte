@@ -1,8 +1,9 @@
 <main>
 	<title>Burgeon</title>
+	<meta property="og:title" content="Burgeon" />
 	<div style="margin-top:15px;margin-bottom:15px;">
-		<a on:click={() => send_to_mix("Writeups")} href="writeups">Writeups</a>
-		✧ <a href="/about">{ti["about"][lshort]}</a> ✧ 
+		<!--<a on:click={() => send_to_mix("Writeups")} href="writeups">Writeups</a>
+		✧ --><a href="/about">{ti["about"][lshort]}</a> ✧ 
 		<a href="/promo">{ti["contribute"][lshort]}</a><!-- ✧
 		<a href="/brute">Bruteforce Method</a>-->
 	</div>
@@ -30,7 +31,10 @@
 	<a on:click={() => send_to_mix("Physical Book")} href="physical_copy" rel="noreferrer"><button class="button">Physical Copy</button></a><br>
 	<div style="padding-top:5px;font-size: 18px;"><a href="/chapter/1">Online version</a></div>
 	-->
-	<a href="/chapter/1"><button class="button">{ti["online-version"][lshort]}</button></a><br>
+	<span>
+		<a href="/chapter/1"><button class="button">{ti["online-version"][lshort]}</button></a>
+		<a target="_blank" rel="noreferrer" href="https://www.lulu.com/shop/neuroregen-collective/burgeon/paperback/product-vvd854.html" on:click={() => send_to_mix("Physical Copy")}><button class="button">{ti["physical-copy"][lshort]}</button></a><br>
+	</span>
 	<div style="padding-top:5px;font-size: 18px;"><a href="/brute">{ti["bruteforce-method"][lshort]}</a></div>
 	<br>
 	<!-- <a on:click={() => send_to_mix("Audiobook")} href="https://odysee.com/ppmo_audiobook_v3:e" rel="noreferrer" title="{ti["audiobook-info"][lshort]}">{ti["audiobook"][lshort]}</a> ✧ -->

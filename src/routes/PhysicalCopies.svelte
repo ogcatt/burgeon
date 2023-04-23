@@ -1,5 +1,6 @@
 <main>
-    <h2 style="margin-bottom:0px;">Physical Copy</h2>
+    <meta property="og:title" content="Burgeon - Physical Copies" />
+    <h2 style="margin-bottom:0px;">Physical Copies</h2>
     <div class="cent-container">
     <p style="max-width:450px;font-size: 17px;">
         The physical copy is custom-designed and it is the best way to read burgeon. There is minimal branding on the cover for those concerned.

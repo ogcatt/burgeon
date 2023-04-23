@@ -378,7 +378,7 @@
                     <h1>{ti["downloads"][lshort]}</h1>
                     <span>
                         <a
-                            href="/offline/COMPLETE/pdf/A5-burgeon-en-4.0-main.pdf"
+                            href="/offline/COMPLETE/pdf/A5-burgeon-en-4.1-main.pdf"
                             target="_blank"
                             rel="noreferrer"
                             title={ti["pdf-info"][lshort]}
@@ -401,7 +401,7 @@
                         >
                         -->
                         <a
-                            href="/offline/COMPLETE/zip/en-4.0-main-markdown.zip"
+                            href="/offline/COMPLETE/zip/en-4.1-main-markdown.zip"
                             download
                             target="_blank"
                             rel="noreferrer"
@@ -422,7 +422,9 @@
                         </p>
                         <a
                             on:click={() => send_to_mix("Physical Book")}
-                            href="/physical_copy"
+                            target="_blank"
+                            rel="noreferrer"
+                            href="https://www.lulu.com/shop/neuroregen-collective/burgeon/paperback/product-vvd854.html"
                             >{ti["physical-copy"][lshort]}</a
                         >
                     </span>

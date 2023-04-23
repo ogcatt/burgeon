@@ -1,5 +1,7 @@
 <main>
     <title>About - Burgeon</title>
+    <meta property="og:title" content="About Burgeon" />
+    <a href="/">← Back to Home</a><br>
     <h3>{ti["about-the-project"][lshort]}</h3>
     <img src="images/fluer1.svg" style="filter: invert(100%); border: none;" height=120px alt="logo banner">
     <div class="cent-container">
